@@ -1,4 +1,3 @@
-x= sum of all numbers
-y= count of numbers
-mean=x/y
-print(f"the mean is", mean)
+def mean(numbers):
+    """return the mean of number"""
+    return sum(numbers)/len(numbers)
